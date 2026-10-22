@@ -16,7 +16,7 @@
 	"author": "Rares Felix Tudose",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/RaresFelix/pi-vim.git"
+		"url": "git+https://github.com/felixtudose/pi-vim.git"
 	},
 	"exports": {
 		".": "./index.ts"

@@ -10,7 +10,7 @@ operators, text objects, registers, undo/redo and `.` repeat.
 ## Install
 
 ```bash
-pi install git:github.com/RaresFelix/pi-vim
+pi install git:github.com/felixtudose/pi-vim
 ```
 
 Or load it for a single run:
