@@ -1,0 +1,47 @@
+{
+	"name": "pi-vim-mode",
+	"version": "0.1.0",
+	"description": "Vim-style modal editing for the pi prompt editor: normal/visual modes, motions, operators, text objects, registers and `.` repeat.",
+	"type": "module",
+	"keywords": [
+		"pi-package",
+		"pi",
+		"pi-extension",
+		"vim",
+		"modal-editing",
+		"editor",
+		"tui"
+	],
+	"license": "MIT",
+	"author": "Rares Felix Tudose",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/RaresFelix/pi-vim.git"
+	},
+	"exports": {
+		".": "./index.ts"
+	},
+	"pi": {
+		"extensions": [
+			"./index.ts"
+		]
+	},
+	"peerDependencies": {
+		"@earendil-works/pi-coding-agent": "*",
+		"@earendil-works/pi-tui": "*"
+	},
+	"devDependencies": {
+		"@types/node": "^22.0.0",
+		"typescript": "^5.0.0"
+	},
+	"scripts": {
+		"test": "node --test test/*.test.ts",
+		"typecheck": "tsc --noEmit"
+	},
+	"files": [
+		"index.ts",
+		"src",
+		"README.md",
+		"LICENSE"
+	]
+}
